@@ -1,0 +1,26 @@
+{
+    "name": "DDMS",
+    "description": "Powerful Debugging Tool for Android application",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "app": {
+        "background": {
+            "scripts": ["background.js"]
+        }
+    },
+    "permissions": [
+        "fileSystem",
+        "serial",
+        {"socket": ["tcp-connect:*:*"]},
+        "usb"
+    ],
+    "sockets": {
+        "tcp": {
+            "connect": "*"
+        }
+    },
+    "icons": {
+        "16": "assets/ddms-16x16.png",
+        "128": "assets/ddms-128x128.png"
+    }
+}

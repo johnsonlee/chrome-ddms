@@ -1,0 +1,29 @@
+{
+  "name": "DDMS",
+  "version": "0.0.1",
+  "authors": [
+    "Johnson Lee <g.johnsonlee@gmail.com>"
+  ],
+  "description": "Chrome DDMS",
+  "keywords": [
+    "android",
+    "adb",
+    "ddms"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/johnsonlee/chrome-ddms",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "jquery": "~2.2.1",
+    "requirejs": "~2.1.22",
+    "extjs": "^6.0.0-640"
+  }
+}
